@@ -3,16 +3,15 @@ export default {
 
   demos: [
     {
-      topic: 'Relative Positioning',
+      topic: 'Absolute/Relative Positioning',
       repoName: false,
-      liveDemo: 'https://codepen.io/tphdevdrop/pen/qRmmbM'
+      liveDemo: 'https://codepen.io/muktek/pen/jGMeNG'
     },
     {
       topic:
-      'Absolute Positioning',
+      'Fixed Positioning',
       repoName: false,
-      liveDemo: 'https://codepen.io/tphdevdrop/pen/mRmmRN'
+      liveDemo: 'https://codepen.io/muktek/pen/QqKJZL'
     }
   ]
-
 }

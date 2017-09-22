@@ -3,7 +3,7 @@ export default {
   demos: [
     {
       topic: 'Intro to HTML Demo',
-      repoName: 'https://github.com/front-end-tph/TIY-Jan-2017/tree/master/code-examples/day-01-html-terminal-intro' ,
+      repoName: 'day-01-html-terminal-intro' ,
       liveDemo: false
     }
   ],

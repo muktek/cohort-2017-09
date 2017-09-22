@@ -10,5 +10,7 @@ import dayDemos from './data/dayDemosData.js'
 
 import registerServiceWorker from './registerServiceWorker';
 
+
+document.querySelector('title').innerHTML = 'Muktek Class Notes - 2017-09'
 ReactDOM.render(<App dayDemos={dayDemos}/>, document.getElementById('root'));
 registerServiceWorker();

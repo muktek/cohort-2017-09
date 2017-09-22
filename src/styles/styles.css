@@ -1,0 +1,76 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background: #000000;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to top, #666666, #000000);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to top, #666666, #000000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background-attachment: fixed;
+}
+
+html{
+  font-size: 21px;
+}
+
+#app-container{
+  max-width: 800px;
+  margin: 0 auto;
+  background: #fff;
+  padding: 2rem 1rem;
+  min-height: 100vh;
+}
+
+header h4{
+  padding-left: 1rem;
+}
+
+.day-container{
+  padding: 2rem 1rem;
+  border: 2px solid #313a7f;
+  border-bottom: 1px solid #313a7f;
+  opacity: .5;
+}
+
+.day-container:last-child{
+  opacity: 1;
+}
+
+section h3{
+  margin-top: 0;
+}
+
+
+article {
+  padding: 0 .5rem;
+}
+
+article > *{
+  display: inline-block;
+  vertical-align: middle;
+}
+
+article .repo-link{
+  font-size: 1.25rem;
+}
+
+article .repo-link--disabled{
+  color: #aaa;
+}
+
+aside h5{
+  font-weight: 600;
+}
+
+aside .misc-content{
+  font-size: .875rem;
+}
+
+aside .misc-content p{
+  margin-bottom: 0;
+}
+
+
+
+.misc-content pre{
+  font-size: 1em;
+}

@@ -4,7 +4,7 @@ export default {
     {
       topic: 'Flexbox',
       repoName: false,
-      liveDemo: 'https://codepen.io/muktek/pen/jGMeNG'
+      liveDemo: 'https://codepen.io/muktek/pen/gGwZPJ'
     }
   ],
   misc: {
@@ -19,6 +19,9 @@ export default {
       </li>
       <li>
         <p><strong>Extra reading: </strong><a href='https://css-tricks.com/snippets/css/a-guide-to-flexbox/'>A Complete Guide to Flexbox | CSS-Tricks</a></p>
+      </li>
+      <li>
+        <p><strong>Compatibility table to check new features and support from Browsers: </strong><a href="https://caniuse.com/">caniuse.com</a></p>
       </li>
     </ul>
     `

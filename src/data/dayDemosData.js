@@ -7,5 +7,7 @@ export default [
   'day-02',
   'day-03',
   'day-04',
-  'day-05'
+  'day-05',
+  'day-06',
+  'day-07'
 ].map( fileX => requireFile(fileX).default)
